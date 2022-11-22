@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My JavaScript</h2>
+
+<p>This example calls a function which performs a calculation, and returns the result:</p>
+
+<p id="demo"></p>
+
+<script>
+function myFunction(p1, p2, p3, p4) {
+  return p1 * p2 + p3 - p4;
+}
+document.getElementById("demo").innerHTML = myFunction(24, 30, 12, 10);
+</script>
+
+</body>
+</html>
